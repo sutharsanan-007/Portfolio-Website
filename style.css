@@ -1,0 +1,101 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia;
+    color: #fff;
+}
+nav.scrolled{
+    background-color: #212529;
+    transition: .5s ease;
+}
+.bg-1{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('./images/bg-1.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main{
+    padding: 8% 0;
+}
+.main1{
+    padding: 5% 0;
+}
+
+li a{
+    border: 2px solid transparent;
+}
+li a:hover{
+    border-bottom: 2px solid white;
+    transition: .5s ease;
+}
+.mr{
+    margin: 25px;
+}
+.hr{
+    margin: 5px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    background: linear-gradient(to right, #fff 50%, transparent 50%);
+    background-size: 200%;
+    background-position: right;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.hr:hover{
+    color: #212529;
+    background-position: left;
+    transition: .5s ease;
+}
+.bg-2{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('./images/bg-2.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cn1{
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+}
+.cn2{
+    margin-bottom: 50px;
+}
+.brd{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 3px solid white;
+}
+.bg-3{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('./images/bg-3.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mra{
+    margin: auto;
+}
+.si{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.si:hover{
+    background-color: white;
+    color: black;
+}
+@media only screen and (max-width: 768px) {   
+    nav{
+      background-color: #212529;
+    }
+}
